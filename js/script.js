@@ -316,10 +316,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const prevButton = document.querySelector('.calendar-prev');
   const nextButton = document.querySelector('.calendar-next');
 
+<<<<<<< HEAD
   if (!calendarGrid || !monthYearDisplay || !prevButton || !nextButton) {
     return;
   }
 
+=======
+>>>>>>> d1154c245598c3d796dfc2a5ead526204715ad6d
   const eventDates = [
     { month: 10, day: 10 },
     { month: 10, day: 11 }
